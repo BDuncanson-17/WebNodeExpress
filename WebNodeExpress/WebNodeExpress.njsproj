@@ -30,6 +30,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="app.js" />
+    <None Include="Properties\PublishProfiles\WebNodeExpress20220622195419 - Web Deploy.pubxml" />
+    <Content Include="public\images\France_1.jpg" />
+    <Content Include="public\images\France_3.jpg" />
+    <Content Include="public\images\France_2.JPG" />
     <Content Include="routes\index.js" />
     <Content Include="routes\users.js" />
     <Content Include="package.json" />
@@ -40,6 +44,8 @@
     <Content Include="views\error.pug" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Properties\" />
+    <Folder Include="Properties\PublishProfiles\" />
     <Folder Include="public\" />
     <Folder Include="public\images\" />
     <Folder Include="public\javascripts\" />
